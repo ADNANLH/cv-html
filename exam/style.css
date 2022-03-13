@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body h1{
+	font-family: 'Fredoka', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase; 
+}
+body h2{
+	font-family: 'Fredoka', sans-serif;
+	font-weight: 300;
+	text-transform: initial;
+} body h3{
+	font-weight: 100;
+    font-family: system-ui;
+    font-style: oblique;
+	color: #0000006b
+}
+body p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+*{	box-sizing: border-box;
+ }
+
+ 
+    font-size: 17px;
+    color: steelblue;
+}
+div#skl {
+    background-color: wheat;
+}
+div#cv {
+    display: flex;
+    flex-direction: row;
+}
+div#information {
+    flex: 6%;
+}
+div#carier {
+    flex: 18%;
+}
+div#photo {
+    text-align: center;
+    padding-top: 50px;
+}
+h1.name {
+    margin-top: 9px;
+    color: steelblue;
+    margin-bottom: 0px;
+    font-size: 34px;
+}
+h2.name {
+    margin-top: 1px;
+    color: slateblue;
+    font-size: 16px;
+}
